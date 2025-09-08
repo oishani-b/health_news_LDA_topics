@@ -3,7 +3,7 @@ Investigating LDA on short, specific health news text data and subsets of women'
 
 The goal of this project was to 1) use LDA on shorter data like tweets within a specific domain, and 2) identify differences in predominant topics and their salience with smaller subsets of women's health news, men's health news, and health news related to children. The health news tweets were obtained from the [UCI ML Repository](https://archive.ics.uci.edu/dataset/438/health+news+in+twitter), and contain tweets from several different news sources. This analysis uses the cleaned Reuters dataset due to its size and global news coverage.
 
-The full code with helper functions commented and with markdown descriptions can be found in the analysis_code.ipynb file. Some of the most relevant conclusions, observations, and selections from the interactive visualizations are presented here.
+The full code with helper functions commented and with markdown descriptions can be found in the analysis_code.ipynb file. Download the file and dataset to run and view the pyLDAVis visualizations (the interactive visualizations might not appear in github without running the jupyter notebook). Some of the most relevant conclusions, observations, and selections from the interactive visualizations are presented here.
 
 **Takeaways and Observations**:
 - **LDA for short, specific texts**: LDA does seem to work for shorter texts! While playing around with the coherence scores and number of topics was needed to get interpretable topics, there were surprisingly insightful topics, and looking at their high frequency terms was useful to get a general idea of the contents of the dataset without looking at it closely.
